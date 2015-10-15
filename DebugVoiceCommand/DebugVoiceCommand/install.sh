@@ -9,7 +9,7 @@
 
 #!/bin/sh
 
-DOWNLOAD_URI=https://github.com/
+DOWNLOAD_URI=https://github.com/sachin26thakur/XcodePlugin_VoiceCommand/releases/download/v1.0/DebugVoiceCommand.tar.gz
 PLUGINS_DIR="${HOME}/Library/Application Support/Developer/Shared/Xcode/Plug-ins"
 
 mkdir -p "${PLUGINS_DIR}"
