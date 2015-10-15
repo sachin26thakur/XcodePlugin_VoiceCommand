@@ -17,7 +17,7 @@
 
 @property (nonatomic, strong, readwrite) NSBundle *bundle;
 @property (nonatomic,strong) id <AspectInfo> session;
-@property (nonatomic,strong)NSSpeechRecognizer *listen;
+@property (nonatomic,strong) NSSpeechRecognizer *listen;
 @end
 
 @implementation DebugVoiceCommand
@@ -44,7 +44,6 @@
     [self log:@"doRegisterSelectorMethodOfDebuggerSession \n"];
     
     
-    
     [objc_getClass("IDELaunchSession") aspect_hookSelector:@selector(_didStart) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo) {
         [self log:@"_didStart \n"];
         if ([aspectInfo.instance supportsDebugSession]) {
@@ -53,7 +52,6 @@
         
     } error:nil];
 
-    
    
     [objc_getClass("IDELaunchSession") aspect_hookSelector:@selector(_willExpire) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo) {
         [self log:@"_willExpire \n"];
@@ -107,6 +105,11 @@
     NSArray *myCommands = [NSArray arrayWithObjects:@"Step In", @"Step Over",
                            @"Step Out", @"Pause", @"Continue", @"play", nil];
     
+    if (_listen) {
+        [_listen startListening];
+        return;
+    }
+    
     _listen = [[NSSpeechRecognizer alloc] init];
     [_listen setCommands:myCommands];
     [_listen setListensInForegroundOnly:NO];
@@ -125,7 +128,7 @@
 
 
 - (void)speechRecognizer:(NSSpeechRecognizer *)sender didRecognizeCommand:(id)aCmd {
-    
+    [self log:(NSString*)aCmd];
     if ([(NSString *)aCmd isEqualToString:@"Step Over"]) {
         [[self.session.instance currentDebugSession] performSelector:@selector(requestStepOverLine)];
     }else if([(NSString *)aCmd isEqualToString:@"Step Out"]){
