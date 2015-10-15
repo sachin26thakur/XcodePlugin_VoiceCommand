@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0348DE9B1BCE8C8400436AF4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0348DE9A1BCE8C8400436AF4 /* AppKit.framework */; settings = {ASSET_TAGS = (); }; };
+		0348DE9D1BCE8C8400436AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0348DE9C1BCE8C8400436AF4 /* Foundation.framework */; settings = {ASSET_TAGS = (); }; };
+		0348DEA11BCE8C8400436AF4 /* DebugVoiceCommand.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 0348DEA01BCE8C8400436AF4 /* DebugVoiceCommand.xcscheme */; };
+		0348DEA41BCE8C8400436AF4 /* DebugVoiceCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348DEA31BCE8C8400436AF4 /* DebugVoiceCommand.m */; };
+		0348DEA71BCE8C8400436AF4 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348DEA61BCE8C8400436AF4 /* NSObject_Extension.m */; };
+		0348DEB01BCE8FA800436AF4 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348DEAF1BCE8FA800436AF4 /* Aspects.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0348DE971BCE8C8400436AF4 /* DebugVoiceCommand.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebugVoiceCommand.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0348DE9A1BCE8C8400436AF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		0348DE9C1BCE8C8400436AF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0348DEA01BCE8C8400436AF4 /* DebugVoiceCommand.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = DebugVoiceCommand.xcscheme; path = DebugVoiceCommand.xcodeproj/xcshareddata/xcschemes/DebugVoiceCommand.xcscheme; sourceTree = SOURCE_ROOT; };
+		0348DEA21BCE8C8400436AF4 /* DebugVoiceCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugVoiceCommand.h; sourceTree = "<group>"; };
+		0348DEA31BCE8C8400436AF4 /* DebugVoiceCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugVoiceCommand.m; sourceTree = "<group>"; };
+		0348DEA51BCE8C8400436AF4 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		0348DEA61BCE8C8400436AF4 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		0348DEA81BCE8C8400436AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0348DEAE1BCE8FA800436AF4 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		0348DEAF1BCE8FA800436AF4 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		0348DEB11BCEAE0F00436AF4 /* NSObject+RemoveWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RemoveWarning.h"; sourceTree = "<group>"; };
+		03C1D86F1BCF5D3300CB6F96 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0348DE951BCE8C8400436AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0348DE9B1BCE8C8400436AF4 /* AppKit.framework in Frameworks */,
+				0348DE9D1BCE8C8400436AF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0348DE8E1BCE8C8400436AF4 = {
+			isa = PBXGroup;
+			children = (
+				0348DE9E1BCE8C8400436AF4 /* DebugVoiceCommand */,
+				0348DE991BCE8C8400436AF4 /* Frameworks */,
+				0348DE981BCE8C8400436AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0348DE981BCE8C8400436AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0348DE971BCE8C8400436AF4 /* DebugVoiceCommand.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0348DE991BCE8C8400436AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0348DE9A1BCE8C8400436AF4 /* AppKit.framework */,
+				0348DE9C1BCE8C8400436AF4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0348DE9E1BCE8C8400436AF4 /* DebugVoiceCommand */ = {
+			isa = PBXGroup;
+			children = (
+				0348DEA21BCE8C8400436AF4 /* DebugVoiceCommand.h */,
+				0348DEA31BCE8C8400436AF4 /* DebugVoiceCommand.m */,
+				0348DEAE1BCE8FA800436AF4 /* Aspects.h */,
+				0348DEAF1BCE8FA800436AF4 /* Aspects.m */,
+				0348DEA51BCE8C8400436AF4 /* NSObject_Extension.h */,
+				0348DEA61BCE8C8400436AF4 /* NSObject_Extension.m */,
+				0348DEA81BCE8C8400436AF4 /* Info.plist */,
+				0348DE9F1BCE8C8400436AF4 /* Supporting Files */,
+				0348DEB11BCEAE0F00436AF4 /* NSObject+RemoveWarning.h */,
+				03C1D86F1BCF5D3300CB6F96 /* install.sh */,
+			);
+			path = DebugVoiceCommand;
+			sourceTree = "<group>";
+		};
+		0348DE9F1BCE8C8400436AF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0348DEA01BCE8C8400436AF4 /* DebugVoiceCommand.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0348DE961BCE8C8400436AF4 /* DebugVoiceCommand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0348DEAB1BCE8C8400436AF4 /* Build configuration list for PBXNativeTarget "DebugVoiceCommand" */;
+			buildPhases = (
+				0348DE931BCE8C8400436AF4 /* Sources */,
+				0348DE941BCE8C8400436AF4 /* Resources */,
+				0348DE951BCE8C8400436AF4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DebugVoiceCommand;
+			productName = DebugVoiceCommand;
+			productReference = 0348DE971BCE8C8400436AF4 /* DebugVoiceCommand.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0348DE8F1BCE8C8400436AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Sachin;
+				TargetAttributes = {
+					0348DE961BCE8C8400436AF4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0348DE921BCE8C8400436AF4 /* Build configuration list for PBXProject "DebugVoiceCommand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0348DE8E1BCE8C8400436AF4;
+			productRefGroup = 0348DE981BCE8C8400436AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0348DE961BCE8C8400436AF4 /* DebugVoiceCommand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0348DE941BCE8C8400436AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0348DEA11BCE8C8400436AF4 /* DebugVoiceCommand.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0348DE931BCE8C8400436AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0348DEA41BCE8C8400436AF4 /* DebugVoiceCommand.m in Sources */,
+				0348DEA71BCE8C8400436AF4 /* NSObject_Extension.m in Sources */,
+				0348DEB01BCE8FA800436AF4 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0348DEA91BCE8C8400436AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		0348DEAA1BCE8C8400436AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		0348DEAC1BCE8C8400436AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = DebugVoiceCommand/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gl.DebugVoiceCommand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		0348DEAD1BCE8C8400436AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = DebugVoiceCommand/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gl.DebugVoiceCommand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0348DE921BCE8C8400436AF4 /* Build configuration list for PBXProject "DebugVoiceCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0348DEA91BCE8C8400436AF4 /* Debug */,
+				0348DEAA1BCE8C8400436AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0348DEAB1BCE8C8400436AF4 /* Build configuration list for PBXNativeTarget "DebugVoiceCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0348DEAC1BCE8C8400436AF4 /* Debug */,
+				0348DEAD1BCE8C8400436AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0348DE8F1BCE8C8400436AF4 /* Project object */;
+}
